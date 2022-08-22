@@ -223,29 +223,29 @@ while(1)
     switch(s)
       {
         case 1:
-        h.getinputDoctor();
-        size2++;
-        break;
+          h.getinputDoctor();
+          size2++;
+          break;
         case 2:
-        cout<<"Present doctors in Hospital are: "<<size2<<endl;
-        h.getinputPatient();
-        size1++;
-        break;
+          cout<<"Present doctors in Hospital are: "<<size2<<endl;
+          h.getinputPatient();
+          size1++;
+          break;
         case 3:
-        h.searchPatient(name());
-        break;
+          h.searchPatient(name());
+          break;
         case 4:
-        h.searchDoctorID(id());
-        break;
+          h.searchDoctorID(id());
+          break;
         case 5:
-        h.displaydetails();
-        break;
+          h.displaydetails();
+           break;
         case 6:
-        exit(0);
-        break;
+            exit(0);
+            break;
         default:
-        cout<<"Select only valid option."<<endl;
-        break;
+          cout<<"Select only valid option."<<endl;
+          break;
       };
     }
 return 0;
